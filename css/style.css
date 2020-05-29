@@ -10,6 +10,11 @@ body{
   margin: auto;
   overflow: hidden;
 }
+ul{
+  margin: 0;
+  padding: 0;
+
+}
 header{
   background: #35424a;
   color: #ffffff;
@@ -24,15 +29,34 @@ header a{
   font-size: 16px;
 
 }
-header ul{
-  margin: 0;
-  padding: 0;
-
-}
-
 
 header li{
- 
   display: inline;
   padding: 0 20px 0 20px;
 }
+header #branding{
+  float: left;
+}
+
+header #branding h1{
+  margin:0;
+
+}
+header nav{
+  float: right;
+}
+header .highlight, header .current a{
+  color: #3b5998;
+  
+}
+header a:hover{
+ color: #cccccc;
+ font-weight: bolder;
+}
+#showCase{
+  min-height:400px;
+  background: url('../img/showcase2.jpg') no-repeat;
+  text-align: left;
+  color:#ffffff;
+}
+ 
